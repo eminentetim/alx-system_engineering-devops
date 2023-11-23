@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Iterates through file in the directory and print them
+for i in *
+do
+	echo "$i" | cut -d'-' -f2
+done
