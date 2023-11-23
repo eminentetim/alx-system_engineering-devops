@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Print string best school except line 4 & 8
-i=1
+i=0
 while [ $((i++)) -le 9 ]
 do
-	if [ $i -eq 3 ]
+	if [ $i -eq 4 ]
 	then
 		echo "bad luck"
 	elif [ $i -eq 8 ]
